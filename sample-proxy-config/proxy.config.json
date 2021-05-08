@@ -1,0 +1,10 @@
+{
+  "/users": {
+    "target": "http://localhost:3001",
+    "secure": false,
+    "pathRewrite": {
+      "^/users": "/profile"
+    },
+    "logLevel": "debug"
+  }
+}
